@@ -40,7 +40,6 @@ html {
     height:200;
     border-radius:20px;
     width:180px;
-    border: red solid 1px;
     translate: 0px -252px;
 }
 ul {
@@ -49,7 +48,7 @@ ul {
 #loading-field {
     width:540px;
     align-self:flex-start;
-    border:red solid 1px;
+   
     margin:30px;
     display:flex;
     justify-content:center;
