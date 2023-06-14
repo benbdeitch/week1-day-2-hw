@@ -4,7 +4,7 @@
     --light-text: #9b9a9f;;
     --body-blue: #483eff;
     --background: #eef5ff;
-
+    --circle: #c8c6ff;
 }
 html {  
     background-color:var(--background);
@@ -41,7 +41,7 @@ html {
     border-radius:20px;
     width:180px;
     border: red solid 1px;
-    translate: 0px -42px;
+    translate: 0px -252px;
 }
 ul {
     list-style-type:none;
@@ -53,7 +53,7 @@ ul {
     margin:30px;
     display:flex;
     justify-content:center;
-    translate:70px -100px;
+    translate:70px ;
 }
 #loading-content {
    
@@ -130,9 +130,9 @@ button:hover {
     align-items:center;
     translate: 0 3px;
     font-size:12px;
-    border:var(--light-text) solid 2px; 
+    border:var(--circle) solid 2px; 
     background-color:var(--body-blue);
-    color:var(--light-text);
+    color:var(--circle);
 }
 .item {
     max-height:100px;
@@ -145,7 +145,7 @@ button:hover {
      translate:8px -15px;
      font-size:12px;  
      font-weight:300;
-     color:var(--light-text)
+     color:var(--circle)
 }
 .setting {
     translate:-28px ;
@@ -160,7 +160,7 @@ li {
     margin-bottom:0px;
 }
 #empty-circle{
-    background-color:aqua;
+    background-color:var(--background);
     color:black;
 }
 #troublemaker{
