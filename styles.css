@@ -33,24 +33,30 @@ html {
     width: 180px;
     margin:10px;
     border-radius:20px;
-    display:flex;
-    flex-direction:column-reverse;
+    position:absolute;
 }
 
 #left-box img {
     height:200;
     border-radius:20px;
+    width:180px;
+    border: red solid 1px;
+    translate: 0px -42px;
 }
-
+ul {
+    list-style-type:none;
+}
 #loading-field {
     width:540px;
+    align-self:flex-start;
     border:red solid 1px;
     margin:30px;
     display:flex;
     justify-content:center;
+    translate:70px -100px;
 }
 #loading-content {
-    
+   
     display:flex; 
     flex-direction:column;
     width:300px;
@@ -70,7 +76,7 @@ html {
 .inputs {
     font-size:9px;
     height: 30px;
-    width:290px;
+    width:340px;
     border: var(--light-text) solid 1px;
     padding-left:10px;
     margin-top:5px;
@@ -86,6 +92,7 @@ html {
 
 .input-box p{
     font-size:10px;
+    height:15px;
 }
 
 button{
@@ -98,9 +105,64 @@ button{
     border:none;
     color: white;
     border-radius:8px;
-
+    translate: 40px;
 }
 
 button:hover {
     background-color:var(--body-blue)
+}
+.myfrustration{
+   display:flex;
+   
+   width:180px;
+   flex-direction:column;
+   
+    
+    height:400px;
+}
+.circle {
+    height:20px;
+    width:20px;
+   
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    translate: 0 3px;
+    font-size:12px;
+    border:var(--light-text) solid 2px; 
+    background-color:var(--body-blue);
+    color:var(--light-text);
+}
+.item {
+    max-height:100px;
+    display:flex; 
+    line-height:20px;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.overtext{
+     translate:8px -15px;
+     font-size:12px;  
+     font-weight:300;
+     color:var(--light-text)
+}
+.setting {
+    translate:-28px ;
+    font-size:12px;
+    color:white;
+    
+}
+ul {
+    translate:-15px;
+}
+li {
+    margin-bottom:0px;
+}
+#empty-circle{
+    background-color:aqua;
+    color:black;
+}
+#troublemaker{
+    translate: -24px 0px;
 }
